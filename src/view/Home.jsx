@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 export const Home = () => {
   let navigateTo = useNavigate();
   const handleClick = () => {
-    navigateTo('/calculate');
+    navigateTo('/bmi-calculator/calculate');
   };
   return (
     <Grid

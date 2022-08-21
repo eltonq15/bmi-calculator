@@ -6,9 +6,10 @@ function App() {
   return (
     <div className='app'>
       <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/calculate' element={<Calculator />} />
+        <Route path='/bmi-calculator/' element={<Home />} />
+        <Route path='/bmi-calculator/calculate' element={<Calculator />} />
       </Routes>
+      App
     </div>
   );
 }
