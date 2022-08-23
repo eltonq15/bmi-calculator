@@ -24,7 +24,7 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Upl;oad production build files
+      - name: Upload production build files
         uses: actions/upload-artifact@v2
         with:
           name: production-files
