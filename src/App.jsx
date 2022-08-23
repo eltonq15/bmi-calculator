@@ -9,7 +9,6 @@ function App() {
         <Route path='/bmi-calculator/' element={<Home />} />
         <Route path='/bmi-calculator/calculate' element={<Calculator />} />
       </Routes>
-      App
     </div>
   );
 }

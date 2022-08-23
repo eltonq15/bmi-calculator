@@ -19,7 +19,7 @@ export const Home = () => {
       }}
     >
       {/* Header */}
-      <Grid container className='h-[10%] mb-1'>
+      <Grid container className='h-max-[10%] mb-1'>
         <Grid
           item
           md={12}
@@ -32,7 +32,7 @@ export const Home = () => {
       </Grid>
 
       {/* Advertisement section */}
-      <Grid container className='h-[90%]'>
+      <Grid container className='h-max-[90%]'>
         <Grid
           item
           md={3}
@@ -47,7 +47,7 @@ export const Home = () => {
         <Grid item md={6} sm={9} xs={12} className='font-sans font-medium'>
           <Grid container spacing={1} className='pl-1 pr-1'>
             <Grid item md={12} className='font-sans font-medium'>
-              <div className='flex flex-col justify-center align-center bg-slate-200 rounded-md aspect-square max-h-[80vh] m-auto mt-[5vh] ml-auto'>
+              <div className='flex flex-col justify-center align-center bg-slate-200 rounded-md aspect-square max-h-[70vh] m-auto mt-[5vh] ml-auto'>
                 <h2 className='p-8 text-center tracking-normal text-lg'>
                   <div>Instantly calculate your BMI to be aware of your levels of body fat.</div>
                   <div>Taking care of yourself is taking care of the ones you love!</div>
